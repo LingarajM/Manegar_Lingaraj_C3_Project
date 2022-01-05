@@ -18,7 +18,7 @@ public class Restaurant {
     }
 
     public boolean isRestaurantOpen() {
-    	//WRITE CODE HERE
+    	//Check whether restaurant is open
     	LocalTime currentTime = getCurrentTime();
 
         int closeTime = currentTime.compareTo(closingTime);
@@ -36,7 +36,7 @@ public class Restaurant {
     public LocalTime getCurrentTime(){ return  LocalTime.now(); }
 
     public List<Item> getMenu() {
-    	//WRITE CODE HERE
+    	//Return menu
         return this.menu;
         
     }
