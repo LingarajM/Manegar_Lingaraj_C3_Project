@@ -74,7 +74,8 @@ public class Restaurant {
     public String getName() {
         return name;
     }
-
+    
+    // Calculates total order quantity
     public int getTotalCost(List<Item> item)
     {
         int totalValue = 0;
