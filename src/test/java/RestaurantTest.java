@@ -70,6 +70,7 @@ class RestaurantTest
     //<<<<<<<<<<<<<<<<<<<<<<<MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
     //>>>>>>>>>>>>>>>>>>>>>>>>>>>Order<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+    //Test cases for total order 
     @Test
     public void order_value_should_get_total_when_collection_of_items_selected(){
         test = restaurant.getMenu();
